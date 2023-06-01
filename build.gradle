@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'screwed'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'screwed.Screwed'
+}
+
+jar {
+    version = '1.0'
+
+    manifest {
+        attributes 'Main-Class': 'screwed.Screwed'
+    }
+
+}
