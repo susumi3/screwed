@@ -1,6 +1,6 @@
-name: Java CI
+name: Java Build
 
-on: [push]
+on: [pull_request]
 jobs:
   build:
     runs-on: windows-latest
@@ -22,8 +22,3 @@ jobs:
         with:
           name: Package
           path: build/libs
-      - name: Upload build reports
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-reports
-          path: build/reports/
