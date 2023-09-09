@@ -1,4 +1,4 @@
-# Screwedにようこそ [![Java Build](https://github.com/suzumiya-3/screwed/actions/workflows/screwed.yaml/badge.svg?branch=master)](https://github.com/suzumiya-3/screwed/actions/workflows/screwed.yaml)
+# Screwedにようこそ [![Java Build](https://github.com/suzumiya-3/screwed/actions/workflows/screwed.yaml/badge.svg)](https://github.com/suzumiya-3/screwed/actions/workflows/screwed.yaml)
 Screwedは、Java上で動くパスワード生成ツールです。
 
 Screwedを起動させる場合は、_Java Runtime Environment (JRE)_ 、ビルド済みjarを使用する場合、_Java 8_ 以上が必要となります。<br />
